@@ -38,7 +38,6 @@ export default function Footer() {
           </a>
         </li>
       </ul>
-      <p>© 2024 Bartłomiej Sadza</p>
     </footer>
   );
 }
