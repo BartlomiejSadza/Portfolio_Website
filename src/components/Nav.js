@@ -19,7 +19,7 @@ export default function Nav() {
           </li>
           <li className="nav__item">
             <a href="#" className="nav__link">
-              My Projects
+              My Services
             </a>
           </li>
           <li className="nav__item">
