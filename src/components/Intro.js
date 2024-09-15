@@ -10,7 +10,7 @@ export default function Intro() {
           Aspiring Fullstack Developer
         </p>
         <img
-          src="./img/devjane.png"
+          src="./img/jaKudlaty.jpeg"
           alt="a picture of Jane Doe smiling"
           className="intro__img"
         />

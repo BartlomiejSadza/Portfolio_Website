@@ -4,7 +4,7 @@ export default function Nav() {
   return (
     <header className="App-header">
       <div className="logo">
-        <img src="./img/devjane.png" className="App-logo" alt="logo" />
+        <img src="./img/_.svg" className="App-logo" alt="logo" />
       </div>
       <button className="nav-toggle" aria-label="toggle navigation">
         <span className="hamburger"></span>
