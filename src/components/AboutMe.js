@@ -12,7 +12,7 @@ export default function AboutMe() {
         <p>With a knack for leadership, teamwork, and managing risk, I thrive in challenging environments.</p>
       </div>
 
-      <img src="../img/dev-jane-02.jpg" alt="a picture of Jane Doe smiling" className="about-me__img" />
+      <img src="../img/dev-jane-02.jpg" alt="Me and my 7yo sister" className="about-me__img" />
     </section>
   );
 }

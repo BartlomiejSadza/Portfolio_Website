@@ -2,7 +2,6 @@ import React from "react";
 
 export default function Nav() {
  
-  const navToggle = document.querySelector('.nav-toggle');
   const toggleNav = () => {
     document.body.classList.toggle("nav-open");
   };

@@ -11,7 +11,7 @@ export default function Intro() {
         </p>
         <img
           src="./img/jaKudlaty.jpeg"
-          alt="a picture of Jane Doe smiling"
+          alt="Me"
           className="intro__img"
         />
       </section>

@@ -5,7 +5,6 @@ export default function MyWork() {
   const [showPopup1, setShowPopup1] = useState(false);
   const [showPopup2, setShowPopup2] = useState(false);
   const [showPopup3, setShowPopup3] = useState(false);
-  const [isOpen, setIsOpen] = useState(false);
 
 
   const handleButtonClick1 = () => {

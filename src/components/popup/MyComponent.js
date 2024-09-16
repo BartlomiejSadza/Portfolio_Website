@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
 function MyComponent(props) {
-  const [isOpen, setIsOpen] = useState(true);
 
   const closePopup = () => props.setIsOpen(!props.isOpen);
 
@@ -48,12 +47,12 @@ function MyComponent(props) {
               <p class="section__subtitle section__subtitle--intro">
                 {props.subtitle}
               </p>
-              <img src={props.image} alt="" class="intro__img" />
+              <img src={props.image} alt="project" class="intro__img" />
             </section>
 
             <div className="portfolio-item-individual">
               <p>{props.description}</p>
-              <img src={props.image2} alt="" />
+              <img src={props.image2} alt="aaa" />
               <p>{props.description2}</p>
               <div className="linkz">
                 <i class="fa fa-globe">
