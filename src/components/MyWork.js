@@ -18,6 +18,7 @@ export default function MyWork() {
     setShowPopup3(true);
   };
 
+  // -------------------------------------------------------------------------------------------------------------------
   const projects = [
     {
       title: "Weather App",
@@ -47,6 +48,7 @@ export default function MyWork() {
       bottomDescription: "Bottom description",
     },
   ];
+  // -------------------------------------------------------------------------------------------------------------------
 
   return (
     <>
