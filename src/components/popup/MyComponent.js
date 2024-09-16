@@ -57,12 +57,12 @@ function MyComponent(props) {
               <p>{props.description2}</p>
               <div className="linkz">
                 <i class="fa fa-globe">
-                  <a class="fab" style={{marginLeft: "1em", color: "darkblue"}} href={props.bottomDescription2}>Link to Game</a>
+                  <a class="fab" style={{marginLeft: "1em", color: "darkblue"}} href={props.bottomDescription2}>Link to the Game</a>
                 </i>
               </div>
               <div className="linkz">
                 <i class="fab fa-github">
-                  <a class="fa" style={{marginLeft: "1em", color: "darkblue"}} href={props.bottomDescription}> Link to Github repository </a>
+                  <a class="fa" style={{marginLeft: "1em", color: "darkblue"}} href={props.bottomDescription}> Link to a Github repository </a>
                 </i>
               </div>
             </div>
