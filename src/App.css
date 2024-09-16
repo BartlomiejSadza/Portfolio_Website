@@ -505,3 +505,8 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+.portfolio-item-individual .linkz {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}

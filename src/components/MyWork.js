@@ -28,6 +28,7 @@ export default function MyWork() {
       image2: "img/portfolio-01.jpg",
       description2: "lusfafsfdsfvhdsjvfvjdlsvfvdlsjfvdafdsdflsdhdfvlsdhfvls",
       bottomDescription: "Bottom description",
+      bottomDescription2: "Bottom description",
     },
     {
       title: "Quizzz App",
@@ -37,6 +38,7 @@ export default function MyWork() {
       image2: "img/quizzz.png",
       description2: "A short description 2",
       bottomDescription: "Bottom description",
+      bottomDescription2: "Bottom description",
     },
     {
       title: "Tenzies Game",
@@ -45,7 +47,8 @@ export default function MyWork() {
       image: "img/_.svg",
       image2: "img/tenzies.png",
       description2: "The app leverages React's state management for real-time updates, providing a smooth and interactive gaming experience. It showcases my ability to build dynamic UIs and manage cloud-based deployments.",
-      bottomDescription: "Technology Stack: React, JavaScript, HTML, CSS, Azure Static Web Apps",
+      bottomDescription: "https://github.com/BartlomiejSadza/Tenzies_Game_React",
+      bottomDescription2: "https://blue-bush-09b264d03.5.azurestaticapps.net/",
     },
   ];
   // -------------------------------------------------------------------------------------------------------------------
@@ -83,6 +86,7 @@ export default function MyWork() {
           image2={projects[0].image2}
           description2={projects[0].description2}
           bottomDescription={projects[0].bottomDescription}
+          bottomDescription2={projects[0].bottomDescription2}
           isOpen={showPopup1}
           setIsOpen={setShowPopup1}
         />
@@ -96,6 +100,7 @@ export default function MyWork() {
           image2={projects[1].image2}
           description2={projects[1].description2}
           bottomDescription={projects[1].bottomDescription}
+          bottomDescription2={projects[1].bottomDescription2}
           isOpen={showPopup2}
           setIsOpen={setShowPopup2}
         />
@@ -109,6 +114,7 @@ export default function MyWork() {
           image2={projects[2].image2}
           description2={projects[2].description2}
           bottomDescription={projects[2].bottomDescription}
+          bottomDescription2={projects[2].bottomDescription2}
           isOpen={showPopup3}
           setIsOpen={setShowPopup3}
         />

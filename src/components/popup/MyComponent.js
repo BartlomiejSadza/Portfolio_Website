@@ -51,11 +51,20 @@ function MyComponent(props) {
               <img src={props.image} alt="" class="intro__img" />
             </section>
 
-            <div class="portfolio-item-individual">
+            <div className="portfolio-item-individual">
               <p>{props.description}</p>
               <img src={props.image2} alt="" />
               <p>{props.description2}</p>
-              <p>{props.bottomDescription}</p>
+              <div className="linkz">
+                <i class="fa fa-globe">
+                  <a class="fab" style={{marginLeft: "1em", color: "darkblue"}} href={props.bottomDescription2}>Link to Game</a>
+                </i>
+              </div>
+              <div className="linkz">
+                <i class="fab fa-github">
+                  <a class="fa" style={{marginLeft: "1em", color: "darkblue"}} href={props.bottomDescription}> Link to Github repository </a>
+                </i>
+              </div>
             </div>
           </div>
         </div>
