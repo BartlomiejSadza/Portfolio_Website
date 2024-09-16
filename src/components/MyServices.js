@@ -7,18 +7,18 @@ export default function MyServices() {
       <div className="services">
         <div className="service">
         <h3>Full-Stack Development</h3>
-        <p>I focus on building responsive web applications, primarily using JavaScript and React for front-end development, along with basic back-end skills in Node.js. I'm continuously learning and expanding my understanding of full-stack development, with hands-on experience in web fundamentals and the basics of cloud services like Microsoft Azure.</p>
+        <p>Now I focus on building responsive web applications, primarily using JavaScript and React for front-end development. In the near future I'm going to be familiar with Node.js. I'm continuously learning and expanding my understanding of full-stack development, with hands-on experience in web and software fundations via. JavaScript-Html-CSS, React, Python. It's worth mentioning that I'm familiar with Excel.</p>
         </div>
         <div className="service">
-        <h3>Basic UX/UI Design & Prototyping</h3>
-        <p>I have basic experience with design tools like Figma and Canva, which I use to create simple wireframes and prototypes. While still developing my design skills, I aim to create user-friendly and functional interfaces that enhance the overall user experience.</p>
+        <h3>Problem Solving and Teamwork</h3>
+        <p>I love tackling complex problems and finding efficient solutions. This drives my interest in software development and helps me excel in my projects. Although I haven't had the opportunity to collaborate on coding projects yet. I'm a good team player, friendly, and communicative. I'm looking forward to applying these interpersonal skills in a team coding environment in the future.</p>
         </div>
         <div className="service">
-        <h3>Collaboration, Version Control & AI-Assisted Development</h3>
-        <p>I use Git and GitHub to manage code and collaborate on projects, ensuring clean and maintainable code practices. I'm also exploring AI tools like Microsoft Copilot to assist in development, making coding more efficient and helping me streamline repetitive tasks.</p>
+        <h3>Continuous Learning</h3>
+        <p>I'm exploring new technologies and frameworks to expand my skill set. I believe in lifelong learning and strive to stay updated with the latest trends in the tech industry.  I think I'm eager to apply my knowledge in real-world projects, contribute to innovative solutions, and grow within the tech industry. </p>
         </div>
       </div>
-      <a href="#work" className="btn">My Work</a>
+      <a href="#work" className="btn">My Projects</a>
     </section>
   );
 }
