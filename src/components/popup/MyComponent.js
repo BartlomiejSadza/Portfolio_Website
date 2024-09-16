@@ -53,7 +53,7 @@ function MyComponent(props) {
 
             <div class="portfolio-item-individual">
               <p>{props.description}</p>
-              <img src="img/portfolio-01.jpg" alt="" />
+              <img src={props.image2} alt="" />
               <p>{props.description2}</p>
               <p>{props.bottomDescription}</p>
             </div>
