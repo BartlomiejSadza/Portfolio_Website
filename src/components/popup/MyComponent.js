@@ -1,14 +1,13 @@
 import React, { useState } from "react";
 
-function MyComponent() {
+function MyComponent(props) {
   const [isOpen, setIsOpen] = useState(true);
 
-  const openPopup = () => setIsOpen(true);
-  const closePopup = () => setIsOpen(false);
+  const closePopup = () => props.setIsOpen(!props.isOpen);
 
   return (
     <div>
-      {isOpen && (
+      {props.isOpen && (
         <div
           style={{
             position: "fixed",
@@ -44,19 +43,19 @@ function MyComponent() {
             </button>
             <section class="intro">
               <h1 class="section__title section__title--intro">
-                The title <strong>of my project</strong>
+                <strong>{props.title}</strong>
               </h1>
               <p class="section__subtitle section__subtitle--intro">
-                A short subtitle
+                {props.subtitle}
               </p>
-              <img src="img/portfolio-01.jpg" alt="" class="intro__img" />
+              <img src={props.image} alt="" class="intro__img" />
             </section>
 
             <div class="portfolio-item-individual">
-              <p>opis</p>
+              <p>{props.description}</p>
               <img src="img/portfolio-01.jpg" alt="" />
-              <p>opis2</p>
-              <p>bottom description</p>
+              <p>{props.description2}</p>
+              <p>{props.bottomDescription}</p>
             </div>
           </div>
         </div>
@@ -66,3 +65,13 @@ function MyComponent() {
 }
 
 export default MyComponent;
+
+/* <MyComponent
+      title={projects[0].title} 
+      subtitle={projects[0].subtitle} 
+      decsription={projects[0].decsription} 
+      image={projects[0].image} 
+      decsription2={projects[0].decsription2} 
+      bottomDescription={projects[0].bottomDescription}
+  />
+*/
