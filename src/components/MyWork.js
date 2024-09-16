@@ -30,22 +30,22 @@ export default function MyWork() {
       bottomDescription: "Bottom description",
     },
     {
-      title: "Project 02",
+      title: "Quizzz App",
       subtitle: "A short subtitle",
-      description: "A short description",
+      description: " React, Azure SWA",
       image: "img/_.svg",
-      image2: "img/_.svg",
+      image2: "img/quizzz.png",
       description2: "A short description 2",
       bottomDescription: "Bottom description",
     },
     {
-      title: "Project 03",
-      subtitle: "A short subtitle",
-      description: "A short description",
+      title: "Tenzies Game",
+      subtitle: "React, Azure SWA",
+      description: "This project is a Tenzies game built using React and deployed through Azure Static Web Apps. The game challenges users to roll dice until all match the same number.",
       image: "img/_.svg",
-      image2: "img/_.svg",
-      description2: "A short description 2",
-      bottomDescription: "Bottom description",
+      image2: "img/tenzies.png",
+      description2: "The app leverages React's state management for real-time updates, providing a smooth and interactive gaming experience. It showcases my ability to build dynamic UIs and manage cloud-based deployments.",
+      bottomDescription: "Technology Stack: React, JavaScript, HTML, CSS, Azure Static Web Apps",
     },
   ];
   // -------------------------------------------------------------------------------------------------------------------
@@ -53,9 +53,9 @@ export default function MyWork() {
   return (
     <>
       <section className="my-work" id="work">
-        <h2 className="section__title section__title--work">My Work</h2>
+        <h2 className="section__title section__title--work">My Projects</h2>
         <p className="section__subtitle section__subtitle--work">
-          A selection of my range of work
+          Some of my most recent projects
         </p>
         <div className="portfolio">
           {/* Portfolio item 01 */}
