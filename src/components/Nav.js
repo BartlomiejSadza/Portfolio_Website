@@ -33,7 +33,7 @@ export default function Nav() {
           </li>
           <li onClick={() => document.body.classList.remove('nav-open')} className="nav__item">
             <a href="#services" className="nav__link">
-              My Services
+              Key Skills
             </a>
           </li>
           <li onClick={() => document.body.classList.remove('nav-open')} className="nav__item">
@@ -43,7 +43,7 @@ export default function Nav() {
           </li>
           <li onClick={() => document.body.classList.remove('nav-open')} className="nav__item">
             <a href="#work" className="nav__link">
-              My Work
+              My Projects
             </a>
           </li>
         </ul>

@@ -7,7 +7,7 @@ export default function MyServices() {
       <div className="services">
         <div className="service">
         <h3>Full-Stack Development</h3>
-        <p>Now I focus on building responsive web applications, primarily using JavaScript and React for front-end development. In the near future I'm going to be familiar with Node.js. I'm continuously learning and expanding my understanding of full-stack development, with hands-on experience in web and software fundations via. JavaScript-Html-CSS, React, Python. It's worth mentioning that I'm familiar with Excel.</p>
+        <p>Now I focus on building responsive web applications, primarily using JavaScript and React for front-end development. In the near future I'm going to be familiar with Node.js. I'm continuously learning and expanding my understanding of full-stack development, with hands-on experience in web and software fundations via. JavaScript-HTML-CSS, React, Python. It's also worth mentioning that I'm familiar with Excel.</p>
         </div>
         <div className="service">
         <h3>Problem Solving and Teamwork</h3>
