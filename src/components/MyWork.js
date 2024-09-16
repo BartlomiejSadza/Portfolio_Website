@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
+import MyComponent from "./popup/MyComponent";
 
 export default function MyWork() {
+  const [showPopup, setShowPopup] = useState(false);
+
+  const handleButtonClick = () => {
+    setShowPopup(true);
+  };
 
   return (
     <section className="my-work" id="work">
@@ -10,21 +16,23 @@ export default function MyWork() {
         {/* Portfolio item 01 */}
         <></>
         {/* Portfolio item 02 */}
-        <a href="#" className="portfolio__item">
+        <button href="#" className="portfolio__item">
           <img src="img/portfolio-02.jpg" alt="" className="portfolio__img" />
-        </a>
+        </button>
         
         {/* Portfolio item 03 */}
-        <a href="#" className="portfolio__item">
+        <button onClick={handleButtonClick} className="portfolio__item">
           <img src="img/portfolio-03.jpg" alt="" className="portfolio__img" />
-        </a>
+        </button>
         
         {/* Portfolio item 04 */}
-        <a href="#" className="portfolio__item">
+        <button href="#" className="portfolio__item">
           <img src="img/portfolio-04.jpg" alt="" className="portfolio__img" />
-        </a>
+        </button>
         
       </div>
+
+      {showPopup && <MyComponent />}
     </section>
   );
 }
