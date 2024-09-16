@@ -26,22 +26,22 @@ export default function Nav() {
       <nav className="nav">
         {/* Nav Tabs */}
         <ul className="nav__list">
-          <li className="nav__item">
+          <li onClick={() => document.body.classList.remove('nav-open')} className="nav__item">
             <a href="#home" className="nav__link">
               Home
             </a>
           </li>
-          <li className="nav__item">
+          <li onClick={() => document.body.classList.remove('nav-open')} className="nav__item">
             <a href="#services" className="nav__link">
               My Services
             </a>
           </li>
-          <li className="nav__item">
+          <li onClick={() => document.body.classList.remove('nav-open')} className="nav__item">
             <a href="#about" className="nav__link">
               About Me
             </a>
           </li>
-          <li className="nav__item">
+          <li onClick={() => document.body.classList.remove('nav-open')} className="nav__item">
             <a href="#work" className="nav__link">
               My Work
             </a>
