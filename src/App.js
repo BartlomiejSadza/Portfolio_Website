@@ -6,11 +6,13 @@ import MyServices from "./components/MyServices";
 import AboutMe from "./components/AboutMe";
 import MyWork from "./components/MyWork";
 import Footer from "./components/Footer";
+import MyComponent from "./components/MyComponent";
 
 function App() {
   return (
     <div className="App">
       <Nav /> 
+      <MyComponent />
       <Intro />
       <MyServices />
       <AboutMe />

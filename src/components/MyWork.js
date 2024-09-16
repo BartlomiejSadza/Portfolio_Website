@@ -24,35 +24,6 @@ export default function MyWork() {
           <img src="img/portfolio-04.jpg" alt="" className="portfolio__img" />
         </a>
         
-        {/* Portfolio item 05 */}
-        <a href="#" className="portfolio__item">
-          <img src="img/portfolio-05.jpg" alt="" className="portfolio__img" />
-        </a>
-        
-        {/* Portfolio item 06 */}
-        <a href="#" className="portfolio__item">
-          <img src="img/portfolio-06.jpg" alt="" className="portfolio__img" />
-        </a>
-        
-        {/* Portfolio item 07 */}
-        <a href="#" className="portfolio__item">
-          <img src="img/portfolio-07.jpg" alt="" className="portfolio__img" />
-        </a>
-        
-        {/* Portfolio item 08 */}
-        <a href="#" className="portfolio__item">
-          <img src="img/portfolio-08.jpg" alt="" className="portfolio__img" />
-        </a>
-        
-        {/* Portfolio item 09 */}
-        <a href="#" className="portfolio__item">
-          <img src="img/portfolio-09.jpg" alt="" className="portfolio__img" />
-        </a>
-        
-        {/* Portfolio item 10 */}
-        <a href="#" className="portfolio__item">
-          <img src="img/portfolio-10.jpg" alt="" className="portfolio__img" />
-        </a>
       </div>
     </section>
   );
