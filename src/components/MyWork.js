@@ -21,8 +21,8 @@ export default function MyWork() {
   const projects = [
     {
       title: "Sunny Side",
-      subtitle: "Low-code & Backend Integration",
-      description: "SunnySide is a weather forecasting app built using Outsystems and the OpenWeather API, developed as a course challenge at Sourceful ICT. Key weather data like temperature, humidity, and wind speed are displayed in real time.",
+      subtitle: "Low-code w/ Backend",
+      description: "SunnySide is a weather forecasting app built using Outsystems and the OpenWeather API, developed as a SOLO course challenge at Sourceful ICT. Key weather data like temperature, humidity, and wind speed are displayed in real time.",
       image: "img/sunny.png",
       image2: "img/portfolio-01.jpg",
       description2: "The app allows users to register securely and offers server-based actions managed by a backend, ensuring a smooth and secure user experience. It showcases my ability to build low-code applications, handle Backend logic and integrate third-party APIs.",
@@ -30,7 +30,7 @@ export default function MyWork() {
       bottomDescription2: "https://personal-6wien1rz.outsystemscloud.com/SunnySide_BartlomiejSadza/SunnySide",
     },
     {
-      title: "Quikś_remix",
+      title: "Quikś_rmx",
       subtitle: "React & TriviaDB API",
       description: "This quiz game is developed with React and integrated with the TriviaDB API to deliver a dynamic trivia experience. All game logic is handled within React, including state management for tracking user progress, scores, and real-time feedback.",
       image: "img/quiks.png",
@@ -44,7 +44,7 @@ export default function MyWork() {
       subtitle: "React, Azure SWA",
       description: "This project is a Tenzies game built using React and deployed through Azure Static Web Apps. The game challenges users to roll dice until all match the same number.",
       image: "img/tenzies.jpeg",
-      image2: "img/tenzies.png",
+      image2: "img/tenzies-scr.png",
       description2: "The app leverages React's state management for real-time updates, providing a smooth and interactive gaming experience. It showcases my ability to build dynamic UIs and manage cloud-based deployments.",
       bottomDescription: "https://github.com/BartlomiejSadza/Tenzies_Game_React",
       bottomDescription2: "https://blue-bush-09b264d03.5.azurestaticapps.net/",
