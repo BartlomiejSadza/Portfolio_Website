@@ -23,7 +23,7 @@ export default function MyWork() {
       title: "Sunny Side",
       subtitle: "Low-code & Backend Integration",
       description: "SunnySide is a weather forecasting app built using Outsystems and the OpenWeather API, developed as a course challenge at Sourceful ICT. Key weather data like temperature, humidity, and wind speed are displayed in real time.",
-      image: "img/_.svg",
+      image: "img/sunny.png",
       image2: "img/portfolio-01.jpg",
       description2: "The app allows users to register securely and offers server-based actions managed by a backend, ensuring a smooth and secure user experience. It showcases my ability to build low-code applications, handle Backend logic and integrate third-party APIs.",
       // bottomDescription: "https://personal-6wien1rz.outsystemscloud.com/SunnySide_BartlomiejSadza/SunnySide",
@@ -33,7 +33,7 @@ export default function MyWork() {
       title: "Quikś_remix",
       subtitle: "React & TriviaDB API",
       description: "This quiz game is developed with React and integrated with the TriviaDB API to deliver a dynamic trivia experience. All game logic is handled within React, including state management for tracking user progress, scores, and real-time feedback.",
-      image: "img/_.svg",
+      image: "img/quiks.png",
       image2: "img/quizzz.png",
       description2: "The app showcases my ability to build interactive and engaging user interfaces, as well as my proficiency in integrating third-party APIs. It is a fun and educational project that (I hope) demonstrates my skills in front-end development.",
       bottomDescription: "https://github.com/BartlomiejSadza/qikus_remixx",
@@ -43,7 +43,7 @@ export default function MyWork() {
       title: "Tenzies Game",
       subtitle: "React, Azure SWA",
       description: "This project is a Tenzies game built using React and deployed through Azure Static Web Apps. The game challenges users to roll dice until all match the same number.",
-      image: "img/_.svg",
+      image: "img/tenzies.jpeg",
       image2: "img/tenzies.png",
       description2: "The app leverages React's state management for real-time updates, providing a smooth and interactive gaming experience. It showcases my ability to build dynamic UIs and manage cloud-based deployments.",
       bottomDescription: "https://github.com/BartlomiejSadza/Tenzies_Game_React",
@@ -62,17 +62,17 @@ export default function MyWork() {
         <div className="portfolio">
           {/* Portfolio item 01 */}
           <button onClick={handleButtonClick1} className="portfolio__item">
-            <img src="img/portfolio-02.jpg" alt="" className="portfolio__img" />
+            <img src={projects[0].image} alt="" className="portfolio__img" />
           </button>
 
           {/* Portfolio item 02 */}
           <button onClick={handleButtonClick2} className="portfolio__item">
-            <img src="img/portfolio-03.jpg" alt="" className="portfolio__img" />
+            <img src={projects[1].image} alt="" className="portfolio__img" />
           </button>
 
           {/* Portfolio item 03 */}
           <button onClick={handleButtonClick3} className="portfolio__item">
-            <img src="img/portfolio-04.jpg" alt="" className="portfolio__img" />
+            <img src={projects[2].image} alt="" className="portfolio__img" />
           </button>
         </div>
       </section>
